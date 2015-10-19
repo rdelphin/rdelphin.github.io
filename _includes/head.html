@@ -14,41 +14,26 @@
     <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
 
     <!-- Font Aewsome Style -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | prepend: site.baseurl }}">
 
 	<!-- Fullscreen Background Slider -->
-    <link href="css/jquery.maximage.min.css" rel="stylesheet">
+    <link href="{{ "css/jquery.maximage.min.css" rel="stylesheet" | prepend: site.baseurl }}">
     
     <!-- Bootstrap Style -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | prepend: site.baseurl }}">
 
     <!-- Reset Style -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="{{ "css/normalize.css" | prepend: site.baseurl }}">
 
     <!-- Main Style -->
     <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
       
-    <link href="css/colors/red-2.css" rel="stylesheet">
-    <link href="css/colors/default-color.css" rel="stylesheet"><!-- alternate style end -->
+    <link href="{{ "css/colors/red-2.css" rel="stylesheet" | prepend: site.baseurl }}">
+    <link href="{{ "css/colors/default-color.css" rel="stylesheet" | prepend: site.baseurl }}"><!-- alternate style end -->
 
     <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-
-
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>

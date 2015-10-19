@@ -1,0 +1,11 @@
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # Miami, Fort Lauderdale, Palm Beach Tax Services.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://365taxexpert.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown

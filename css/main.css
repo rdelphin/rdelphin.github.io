@@ -268,7 +268,7 @@ p {
    ==================================================
    ================================================== */
 .bg-overlay {
-  background-color: #292929;
+  background-color: #FFFFFF;
   min-width: 100%;
   min-height: 120%;
   width: auto;
@@ -330,6 +330,7 @@ p {
   font-weight: normal;
   margin: 15px 0;
   text-transform: uppercase;
+  color: #000000;
 }
 .obak {  color: #96191C }
 /* * ==========================================================================

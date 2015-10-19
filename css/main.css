@@ -332,7 +332,7 @@ p {
   text-transform: uppercase;
   color: #000000;
 }
-.obak {  color: #96191C }
+.obak {  color: #17a3e0 }
 /* * ==========================================================================
         2.2.3.Countdown
 * ==========================================================================
@@ -379,7 +379,7 @@ a:hover {  text-decoration: underline }
   align-items: center;
   text-align: center;
 }
-.intro-subtitle p {  color: #efefef }
+.intro-subtitle p {  color: #444444 }
 .intro_description {
   margin: 0 auto 0 1em;
   line-height: 1.2;

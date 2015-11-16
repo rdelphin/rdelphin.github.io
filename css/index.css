@@ -224,13 +224,14 @@
 	background-color: transparent;
 	line-height: 22px;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 25px;
 	text-align: center;
 	font-family: lato, sans-serif;
 	font-weight: 400;
 	position: relative;
 	margin-right: -10000px;
 	top: 11px;
+	font-weight: bold;
 }
 
 #u1951

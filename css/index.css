@@ -1,7 +1,13 @@
 .version.index /* version checker */
 {
 	color: #00001F;
-	background-color: #E570B3;
+ 	background-color: #E570B3;
+}
+
+.logo a
+{
+	color: #FFFFFF;
+	text-transform: none;
 }
 
 .html

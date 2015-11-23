@@ -4,10 +4,10 @@
  	background-color: #E570B3;
 }
 
-.logo a
+a.logo
 {
 	color: #FFFFFF;
-	text-transform: none;
+	text-decoration: none;
 }
 
 .html

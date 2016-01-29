@@ -1,11 +1,11 @@
 # Site settings
-title: 365 Tax Expert
-email: your-email@domain.com
+title: 365 Tax Experts - Tax Preparation and Tax Filing Service
+email: 365taxexperts@gmail.com
 description: > # Miami, Fort Lauderdale, Palm Beach Tax Services.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://365taxexpert.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: 365taxexperts
+facebook_username:  365taxexperts
 
 # Build settings
 markdown: kramdown

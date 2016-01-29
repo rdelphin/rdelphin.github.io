@@ -181,9 +181,12 @@ pre code {
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  /* background: #17baef; */
+  background: url(../images/365taxexperts-customer-bg.jpg) center center no-repeat fixed;
+  background-size: cover;
+  width: 100%;
   color: #fff;
-  padding-top: 150px;
+  /* padding-top: 150px; */
 }
 .promo .title {
   font-size: 78px;

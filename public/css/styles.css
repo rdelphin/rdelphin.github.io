@@ -180,11 +180,14 @@ pre code {
   margin-right: 0;
 }
 /* ======= Promo Section ======= */
+ 
 .promo {
-  /* background: #17baef; */
-  background: url(../images/365taxexperts-customer-bg.jpg) center center no-repeat fixed;
-  background-size: cover;
-  width: 100%;
+  /* background: #17baef;  */
+  background: url(../images/365taxexperts-customer2-bg.jpg) center top no-repeat fixed;
+   -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+   background-size: 100% auto;
   color: #fff;
   /* padding-top: 150px; */
 }

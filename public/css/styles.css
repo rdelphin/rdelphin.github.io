@@ -364,7 +364,6 @@ pre code {
   margin: 0 auto;
 }
 .license .cta-container {
-  max-width: 540px;
   margin: 0 auto;
   margin-top: 60px;
   -webkit-border-radius: 4px;
@@ -631,3 +630,12 @@ pre code {
   .slider div{
     margin-right:5px;
   }
+
+  .revname {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+    .revname p {
+      padding-top: 20px;
+    }

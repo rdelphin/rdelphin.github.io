@@ -13,4 +13,20 @@
     <script type="text/javascript" src="{{ site.baseurl }}public/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
     <script type="text/javascript" src="{{ site.baseurl }}public/plugins/prism/prism.js"></script>    
     <script type="text/javascript" src="{{ site.baseurl }}public/js/main.js"></script>       
+    <script type="text/javascript" src="{{ site.baseurl }}public/js/slick.js"></script>       
+    <script type="text/javascript" src="{{ site.baseurl }}public/js/slick-min.js"></script>   
+
+    <!-- Slick Carousel -->    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    });
+    </script>
 

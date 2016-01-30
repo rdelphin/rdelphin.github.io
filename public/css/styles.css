@@ -622,7 +622,7 @@ pre code {
 
 /* Slick Carousel */
 .slider{
-    width:600px;
+    width:auto;
     margin:20px auto;
     text-align:center;
   }

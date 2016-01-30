@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="public/plugins/prism/prism.css">
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="public/css/styles.css">
+
+    <!-- Carousel CSS -->  
+    <link id="theme-style" rel="stylesheet" href="public/css/slick.css">
+    <link id="theme-style" rel="stylesheet" href="public/css/slick-theme.css">
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -166,8 +171,11 @@
             <h2 class="title text-center">Testimonials</h2>
                 
                 <div class="cta-container">
-                    <div class="speech-bubble">                    
-                        <p class="intro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                    <div class="speech-bubble">
+                        <div class="slider">                    
+                            <div>content #1</div>
+                            <div>content #2</div>
+                        </div>
                         
                     </div><!--//speech-bubble-->
                     
@@ -251,6 +259,22 @@
     <script type="text/javascript" src="public/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
     <script type="text/javascript" src="public/plugins/prism/prism.js"></script>    
     <script type="text/javascript" src="public/js/main.js"></script>       
+    <script type="text/javascript" src="public/js/slick.js"></script>       
+    <script type="text/javascript" src="public/js/slick-min.js"></script>   
+
+    <!-- Slick Carousel -->    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        });
+    });
+    </script>
 
 
 </body>
